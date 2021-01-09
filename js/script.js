@@ -35,9 +35,22 @@ $(document).ready(function () {
             $('#ingredients').append('<li>' + value + '</li>');
           });
 
+          $("#favouritebtn").click(function() {
+              var existingfavlist = JSON.parse(localStorage.getItem("favlist"));
+              if(existingfavlist == null) {
+                existingfavlist = [];
+              };
+              localStorage.setItem("food", JSON.stringify(food));
+              existingfavlist.push(food);
+              localStorage.setItem("favlist", JSON.stringify(existingfavlist));
+          });
         });
     });
 
-  });
+    console.log(localStorage.getItem("favlist"))
+
     
-})
+        });
+    });
+
+    
