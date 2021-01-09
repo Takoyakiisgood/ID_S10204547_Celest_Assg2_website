@@ -47,9 +47,28 @@ $(document).ready(function () {
         });
     });
 
-    console.log(localStorage.getItem("favlist"))
+    $("#generatefav").click(function() {
+      var list = JSON.parse(localStorage.getItem("favlist"));
 
-    
+      randnumber = Math.floor(Math.random() * (list.length)) + 1
+      foodgenerated = list[randnumber]
+
+      $("#foodname").html(`${foodgenerated.strMeal}`);
+          const ingredients = [];
+          for (let i = 1; i <= 20; i++) {
+            if (foodgenerated[`strIngredient${i}`]) {
+              ingredients.push(
+                `${foodgenerated[`strIngredient${i}`]}`
+              );
+            } else {
+              break;
+            }
+          }
+          $('#ingredientsfav').empty();
+          $.each(ingredients, function( key, value ) {
+            $('#ingredientsfav').append('<li>' + value + '</li>');
+          });
+          });
         });
     });
 
