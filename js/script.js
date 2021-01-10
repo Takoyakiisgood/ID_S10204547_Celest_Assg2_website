@@ -40,14 +40,9 @@ $(document).ready(function () {
               if(existingfavlist == null) {
                 existingfavlist = [];
               };
-              if ($.each(existingfavlist) == JSON.stringify(food)) {
-                alert("Item already added to favourite list!");
-              }
-              else {
               localStorage.setItem("food", JSON.stringify(food));
               existingfavlist.push(food);
               localStorage.setItem("favlist", JSON.stringify(existingfavlist));
-              };
           });
         });
     });
@@ -79,7 +74,22 @@ $(document).ready(function () {
             $('#favlistcontent').append('<tr><th class="table-success">' + value.strMeal + '</th></tr>');
           });
           });
+
+          $("#trybtn").click(function() {
+            var username = document.getElementById('username').value;
+            var points = 1;
+            
+            var existingleaderboard = JSON.parse(localStorage.getItem("leaderboard"));
+              if(existingleaderboard == null) {
+                existingleaderboard = {};
+              }
+                existingleaderboard[`${username}`] = `${points}`;
+                $('#leaderboard tr').remove();
+                $.each(existingleaderboard, function( key, value ) {
+                $('#leaderboard').append('<tr><th class="table-success">' + username + '</th><th class="table-success">' + value.username + '</th></tr>');
+          });
+
         });
     });
-
+  });
     
