@@ -22,12 +22,10 @@ My project is developed for mobile use.
 <li>Feature 3 - allows users to save their favourite food items so that they can generate food from their favourite list.</li>
 
 <h2>Features Left to Implement</h2>
-<li>Feature 1 - allow users to create accounts/sign in to their account to set dietary re4strictions they have so that the food generated is something that they can consume instead of manually going through the ingredient list generated alongside with the name of the food.</li>
+<li>Feature 1 - allow users to create accounts/sign in to their account to set dietary restrictions they have so that the food generated is something that they can consume instead of manually going through the ingredient list generated alongside with the name of the food, as well as being able to see other user's points in the leaderboard.</li>
 <li>Feature 2 - allow users to input restaurant's name and generate food item from that particular restaurant's menu.</li>
 
 <h2>Technologies Used</h2>
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
 <li>JQuery - The project uses JQuery to simplify DOM manipulation.<br>
 https://code.jquery.com/jquery-3.5.1.min.js</li>
 <li>Bootstrap - The project uses Bootstrap to simplify the CSS of the project.<br>
