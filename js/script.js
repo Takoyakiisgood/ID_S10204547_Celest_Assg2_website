@@ -68,6 +68,11 @@ $(document).ready(function () {
           $.each(ingredients, function( key, value ) {
             $('#ingredientsfav').append('<li>' + value + '</li>');
           });
+
+          $('#favlistcontent th').remove();
+          $.each(favlist, function( key, value ) {
+            $('#favlistcontent').append('<th class="table-success" scope="row">' + value.strMeal + '</th>');
+          });
           });
         });
     });
