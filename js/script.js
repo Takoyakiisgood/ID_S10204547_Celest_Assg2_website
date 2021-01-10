@@ -48,10 +48,10 @@ $(document).ready(function () {
     });
 
     $("#generatefav").click(function() {
-      const list = JSON.parse(localStorage.getItem("favlist"));
+      const favlist = JSON.parse(localStorage.getItem("favlist"));
 
-      randnumber = Math.floor(Math.random() * (list.length)) + 1;
-      foodgenerated = list[randnumber];
+      randnumber = Math.floor(Math.random() * (favlist.length)) + 1;
+      foodgenerated = favlist[randnumber];
 
       $("#foodname").html(`${foodgenerated.strMeal}`);
           const ingredients = [];
