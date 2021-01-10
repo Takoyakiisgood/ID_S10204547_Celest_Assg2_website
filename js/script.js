@@ -50,10 +50,7 @@ $(document).ready(function () {
     $("#generatefav").click(function() {
       var list = JSON.parse(localStorage.getItem("favlist"));
 
-      randnumber = Math.floor(Math.random() * ((list.length)-1)) + 0
-      console.log(list)
-      console.log((list.length)-1))
-      console.log(randnumber)
+      randnumber = Math.floor(Math.random() * (list.length) + 1
       foodgenerated = list[randnumber]
 
       $("#foodname").html(`${foodgenerated.strMeal}`);
