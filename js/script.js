@@ -52,6 +52,7 @@ $(document).ready(function () {
 
       randnumber = favlist[Math.floor(Math.random() * (favlist.length))];
       foodgenerated = favlist[randnumber];
+      console.log(randnumber);
 
       $("#foodname").html(`${foodgenerated.strMeal}`);
           const ingredients = [];
