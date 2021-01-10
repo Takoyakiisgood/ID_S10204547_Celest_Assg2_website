@@ -2,6 +2,8 @@
 
 <h1>Random Food Generator</h1>
 
+https://takoyakiisgood.github.io/ID_S10204547_Celest_Assg2_website/
+
 <h2>Overview</h2>
 
 My project allows indecisive users to decide on what food to eat for their next meal (random food generator). Users can “favourite” that food so that it’ll be in their favourite list and they can use this list to decide on what to eat again. For each food they eat based on the random food, they can earn points in the leaderboard.
