@@ -52,7 +52,7 @@ $(document).ready(function () {
 
       randnumber = Math.floor(Math.random() * (list.length)) + 1;
       foodgenerated = list[randnumber]
-
+      
       $("#foodname").html(`${foodgenerated.strMeal}`);
           const ingredients = [];
           for (let i = 1; i <= 20; i++) {
