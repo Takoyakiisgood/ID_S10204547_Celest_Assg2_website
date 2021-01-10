@@ -40,9 +40,14 @@ $(document).ready(function () {
               if(existingfavlist == null) {
                 existingfavlist = [];
               };
+              if ($.each(existingfavlist) == JSON.stringify(food)) {
+                alert("Item already added to favourite list!");
+              }
+              else {
               localStorage.setItem("food", JSON.stringify(food));
               existingfavlist.push(food);
               localStorage.setItem("favlist", JSON.stringify(existingfavlist));
+              };
           });
         });
     });
