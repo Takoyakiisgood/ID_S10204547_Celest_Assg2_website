@@ -71,7 +71,7 @@ $(document).ready(function () {
 
           $('#favlistcontent th').remove();
           $.each(favlist, function( key, value ) {
-            $('#favlistcontent').append('<th class="table-success" scope="row">' + value.strMeal + '</th>');
+            $('#favlistcontent').append('<tr><th class="table-success">' + value.strMeal + '</th></tr>');
           });
           });
         });
