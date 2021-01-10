@@ -9,13 +9,13 @@ My project allows indecisive users to decide on what food to eat for their next 
 <h2>Design Process</h2>
 
 <li>As a user i want to be able to be able to generate food based on my diet so that i can decide on what to have for my next meal.</li>
-<li>>As a user i want to be able to create an account/sign in to my existing account so that i can earn points and compete against other foodies as well as setting my diet restrictions so that the food generated would be something i can consume.</li>
-<li>>As a user i want to be able to save my favourite food items so that i can generate food from my favourite list.</li>
+<li>As a user i want to be able to create an account/sign in to my existing account so that i can earn points and compete against other foodies as well as setting my diet restrictions so that the food generated would be something i can consume.</li>
+<li>As a user i want to be able to save my favourite food items so that i can generate food from my favourite list.</li>
 
 <h2>Features</h2>
 
-<li>>Feature 1 - allows users to use the random food generator to generate food to have for their next meal.</li>
-<li>>Feature 2 - allows users to create an account/sign in to my existing account so that they can earn points and compete against other foodies and also to set their diet restrictions.</li>
+<li>Feature 1 - allows users to use the random food generator to generate food to have for their next meal.</li>
+<li>Feature 2 - allows users to create an account/sign in to my existing account so that they can earn points and compete against other foodies and also to set their diet restrictions.</li>
 <li>Feature 3 - allows users to save their favourite food items so that they can generate food from their favourite list.</li>
 
 Features Left to Implement
