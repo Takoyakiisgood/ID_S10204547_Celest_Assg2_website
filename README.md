@@ -53,7 +53,7 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css</l
 <ol>
 <li>Input username and click on "Yes" button to signify user have tried the food.</li>
 <li>Leaderboard should update the username input by the user together with their respective points.</li>
-<li>Problems unresolved:<br>The way i coded the point leaderboard it is only saved in localstorage so other users are unable to see other's points. I was also unable to display the points in the leaderboard and make sure that everytime users tries a food points are added to that specific username</li>
+<li>Problems unresolved:<br>The way i coded the point leaderboard it is only saved in localstorage so other users are unable to see other's points. I was also unable to display the points in the leaderboard and make sure that everytime users tries a food points are added to that specific username. Leaderboard points displayed is "undefined" instead of the points.</li>
 </ol>
 </li>
 
