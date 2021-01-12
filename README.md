@@ -2,7 +2,13 @@
 
 <h1>Random Food Generator</h1>
 
-https://takoyakiisgood.github.io/ID_S10204547_Celest_Assg2_website/
+Webpage link: https://takoyakiisgood.github.io/ID_S10204547_Celest_Assg2_website/<br>
+Pitch video link: https://drive.google.com/file/d/1mlfsSYx--sbdvgzyBTGuaTLNO9jOdKVE/view?usp=sharing<br>
+Wireframe link: https://xd.adobe.com/view/c16f5606-3636-4e0c-b725-05f487aa6baa-943c/<br>
+
+Wireframe:<br>
+
+<img src="./images/wireframes%20screenshot.jpg">
 
 <h2>Overview</h2>
 
